@@ -1,4 +1,4 @@
-﻿import <iostream>;
+﻿import <cstdio>;
 int main() {
 	for (int i = 0;
 		putchar(
