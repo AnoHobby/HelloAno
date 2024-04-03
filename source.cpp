@@ -1,6 +1,6 @@
 ﻿import <cstdio>;
 int main() {
-	for (int i = 0;
+	for (auto i = 0;
 		putchar(
 			[](this auto self, bool msb, auto... bits) {
 				if constexpr (sizeof...(bits))return (msb << sizeof...(bits)) + self(bits...);
